@@ -1,0 +1,62 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('C:\Users\Asus\Desktop\Restaurant website 1\public\images\cala-w6ftFbPCs9I-unsplash.jpg'); /* Replace with your image file name */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+p {
+    margin-top: 15px;
+}
+
+a {
+    color: #007bff; /* Link color */
+}
+
+/* Optional: Gradient overlay */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1; /* Position above the background */
+}
